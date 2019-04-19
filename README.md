@@ -4,9 +4,9 @@
 [![](https://img.shields.io/badge/platform-iOS-brightgreen.svg?style=flat-square)](https://www.apple.com/ios/)
 [![](https://img.shields.io/github/license/joeblau/sensor-visualizer-kit.svg?style=flat-square)](https://github.com/joeblau/sensor-visualizer-kit/blob/master/LICENSE)
 
-## About
-
 Visualize iOS sensors for live presentations, iOS AppStore demos, Apple Store prototypes, design reviews.
+
+![](.github/svk-demo.gif)
 
 ## Install
 

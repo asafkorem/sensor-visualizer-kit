@@ -15,8 +15,5 @@ let package = Package(
         .target(
             name: "SensorVisualizerKit",
             dependencies: []),
-        .testTarget(
-            name: "SensorVisualizerKitTests",
-            dependencies: ["SensorVisualizerKit"]),
     ]
 )
