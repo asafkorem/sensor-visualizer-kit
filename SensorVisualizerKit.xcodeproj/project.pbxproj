@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52D6D9871BEFF229002C0205 /* SensorVisualizerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D6D97C1BEFF229002C0205 /* SensorVisualizerKit.framework */; };
 		E646A57E225CC18D0086B500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E646A57D225CC18D0086B500 /* AppDelegate.swift */; };
 		E646A583225CC18D0086B500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E646A581225CC18D0086B500 /* Main.storyboard */; };
 		E646A585225CC18E0086B500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E646A584225CC18E0086B500 /* Assets.xcassets */; };
@@ -33,13 +32,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		52D6D9881BEFF229002C0205 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52D6D9731BEFF229002C0205 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52D6D97B1BEFF229002C0205;
-			remoteInfo = SensorVisualizerKit;
-		};
 		E646A5D2225E633A0086B500 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 52D6D9731BEFF229002C0205 /* Project object */;
@@ -65,9 +57,7 @@
 
 /* Begin PBXFileReference section */
 		52D6D97C1BEFF229002C0205 /* SensorVisualizerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SensorVisualizerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52D6D9861BEFF229002C0205 /* SensorVisualizerKit-iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SensorVisualizerKit-iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2FAA261CD0B6D800659CF4 /* SensorVisualizerKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SensorVisualizerKit.plist; sourceTree = "<group>"; };
-		AD2FAA281CD0B6E100659CF4 /* SensorVisualizerKitTests.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SensorVisualizerKitTests.plist; sourceTree = "<group>"; };
 		E646A57B225CC18D0086B500 /* SensorVisualizerKit-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensorVisualizerKit-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E646A57D225CC18D0086B500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E646A582225CC18D0086B500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,14 +90,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52D6D9831BEFF229002C0205 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52D6D9871BEFF229002C0205 /* SensorVisualizerKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E646A578225CC18D0086B500 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -125,7 +107,6 @@
 			children = (
 				E646A57C225CC18D0086B500 /* Example */,
 				8933C7811EB5B7E0000D00A4 /* Sources */,
-				8933C7831EB5B7EB000D00A4 /* Tests */,
 				52D6D99C1BEFF38C002C0205 /* Configs */,
 				52D6D97D1BEFF229002C0205 /* Products */,
 				E646A5C1225D5B200086B500 /* Frameworks */,
@@ -136,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				52D6D97C1BEFF229002C0205 /* SensorVisualizerKit.framework */,
-				52D6D9861BEFF229002C0205 /* SensorVisualizerKit-iOS Tests.xctest */,
 				E646A57B225CC18D0086B500 /* SensorVisualizerKit-Example.app */,
 			);
 			name = Products;
@@ -146,7 +126,6 @@
 			isa = PBXGroup;
 			children = (
 				DD7502721C68FC1B006590AF /* Frameworks */,
-				DD7502731C68FC20006590AF /* Tests */,
 			);
 			path = Configs;
 			sourceTree = "<group>";
@@ -165,28 +144,12 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		8933C7831EB5B7EB000D00A4 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Tests;
-			path = Tests/SensorVisualizerKitTests;
-			sourceTree = "<group>";
-		};
 		DD7502721C68FC1B006590AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				AD2FAA261CD0B6D800659CF4 /* SensorVisualizerKit.plist */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DD7502731C68FC20006590AF /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				AD2FAA281CD0B6E100659CF4 /* SensorVisualizerKitTests.plist */,
-			);
-			name = Tests;
 			sourceTree = "<group>";
 		};
 		E646A57C225CC18D0086B500 /* Example */ = {
@@ -296,24 +259,6 @@
 			productReference = 52D6D97C1BEFF229002C0205 /* SensorVisualizerKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		52D6D9851BEFF229002C0205 /* SensorVisualizerKit-iOS Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "SensorVisualizerKit-iOS Tests" */;
-			buildPhases = (
-				52D6D9821BEFF229002C0205 /* Sources */,
-				52D6D9831BEFF229002C0205 /* Frameworks */,
-				52D6D9841BEFF229002C0205 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52D6D9891BEFF229002C0205 /* PBXTargetDependency */,
-			);
-			name = "SensorVisualizerKit-iOS Tests";
-			productName = SensorVisualizerKitTests;
-			productReference = 52D6D9861BEFF229002C0205 /* SensorVisualizerKit-iOS Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		E646A57A225CC18D0086B500 /* SensorVisualizerKit-Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E646A58A225CC18E0086B500 /* Build configuration list for PBXNativeTarget "SensorVisualizerKit-Example" */;
@@ -348,10 +293,6 @@
 						DevelopmentTeam = K78G42H4U2;
 						LastSwiftMigration = 1020;
 					};
-					52D6D9851BEFF229002C0205 = {
-						CreatedOnToolsVersion = 7.1;
-						LastSwiftMigration = 1020;
-					};
 					E646A57A225CC18D0086B500 = {
 						CreatedOnToolsVersion = 10.2;
 						DevelopmentTeam = K78G42H4U2;
@@ -373,7 +314,6 @@
 			projectRoot = "";
 			targets = (
 				52D6D97B1BEFF229002C0205 /* SensorVisualizerKit-iOS */,
-				52D6D9851BEFF229002C0205 /* SensorVisualizerKit-iOS Tests */,
 				E646A57A225CC18D0086B500 /* SensorVisualizerKit-Example */,
 			);
 		};
@@ -381,13 +321,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		52D6D97A1BEFF229002C0205 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52D6D9841BEFF229002C0205 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,13 +354,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52D6D9821BEFF229002C0205 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E646A577225CC18D0086B500 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,11 +373,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		52D6D9891BEFF229002C0205 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52D6D97B1BEFF229002C0205 /* SensorVisualizerKit-iOS */;
-			targetProxy = 52D6D9881BEFF229002C0205 /* PBXContainerItemProxy */;
-		};
 		E646A5D3225E633A0086B500 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 52D6D97B1BEFF229002C0205 /* SensorVisualizerKit-iOS */;
@@ -641,32 +562,6 @@
 			};
 			name = Release;
 		};
-		52D6D9941BEFF229002C0205 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Configs/SensorVisualizerKitTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SensorVisualizerKit.SensorVisualizerKit-iOS-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Debug;
-		};
-		52D6D9951BEFF229002C0205 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Configs/SensorVisualizerKitTests.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SensorVisualizerKit.SensorVisualizerKit-iOS-Tests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
 		E646A58B225CC18E0086B500 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -739,15 +634,6 @@
 			buildConfigurations = (
 				52D6D9911BEFF229002C0205 /* Debug */,
 				52D6D9921BEFF229002C0205 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		52D6D9931BEFF229002C0205 /* Build configuration list for PBXNativeTarget "SensorVisualizerKit-iOS Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52D6D9941BEFF229002C0205 /* Debug */,
-				52D6D9951BEFF229002C0205 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
