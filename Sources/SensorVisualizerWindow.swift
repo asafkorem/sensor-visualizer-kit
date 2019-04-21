@@ -30,7 +30,7 @@ public class SensorVisualizerWindow: UIWindow {
     /// Initialize a sensor visualizer window
     ///
     /// - Parameters:
-    ///     - frame: The size of the window which is ususally the screen bounds
+    ///     - frame: The size of the window which is usually the screen bounds
     ///     - primary (optional): The tap and shake color which defaults to the tint color
     ///     - secondary (optional): The tap border color which defaults to the tint color
     public init(frame: CGRect,
