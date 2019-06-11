@@ -6,7 +6,7 @@
 
 Visualize iOS sensors for live presentations, iOS AppStore demos, Apple Store prototypes, design reviews.
 
-[![](.github/svk-demo.gif)](https://vimeo.com/331486696)
+[![](.github/demo.gif)](https://vimeo.com/331486696)
 
 ## Install
 
