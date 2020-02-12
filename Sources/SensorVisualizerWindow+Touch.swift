@@ -31,10 +31,12 @@ extension SensorVisualizerWindow: TouchVisualizable {
             @unknown default: break
             }
                 
-            switch touch.force / touch.maximumPossibleForce {
-            case 0.45..<0.9: peek(touch: touch)
-            case 0.9..<1.0: pop(touch: touch)
-            default: break
+            if #available(iOS 9.0, *) {
+                switch touch.force / touch.maximumPossibleForce {
+                case 0.45..<0.9: peek(touch: touch)
+                case 0.9..<1.0: pop(touch: touch)
+                default: break
+                }
             }
         }
     }
