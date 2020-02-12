@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/joeblau/sensor-visualizer-kit.git", :tag => s.version.to_s }
   s.swift_version = '5.0'
-  s.source_files  = "Sources/SensorVisualizerKit/**/*"
+  s.source_files  = "Sources/**/*"
   s.frameworks  = "UIKit"
 end
