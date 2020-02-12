@@ -13,13 +13,13 @@ Visualize iOS sensors for live presentations, iOS AppStore demos, Apple Store pr
 **Carthage:** To integrate SensorVisualizerKit into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```sh
-github "joeblau/sensor-visualizer-kit" ~> 0.1
+github "joeblau/sensor-visualizer-kit" ~> 0.1.1
 ```
 
 **Cocoapods:** To integrate SensorVisualizerKit into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```sh
-pod 'SensorVisualizerKit', '~> 0.1'
+pod 'SensorVisualizerKit', '~> 0.1.1'
 ```
 
 ## Use
