@@ -45,6 +45,19 @@ public class SensorVisualizerWindow: UIWindow {
         }
     }
     
+    @available(iOSApplicationExtension 13.0, *)
+    public init(windowScene: UIWindowScene,
+                primary: UIColor = UIView().tintColor,
+                secondary: UIColor = UIView().tintColor) {
+        self.primaryColor = primary
+        self.secondaryColor = secondary
+
+        super.init(windowScene: windowScene)
+        if let windowView = visualizationWindow.rootViewController?.view {
+            self.animator = UIDynamicAnimator(referenceView: windowView)
+        }
+    }
+
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
