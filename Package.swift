@@ -14,6 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "SensorVisualizerKit",
-            dependencies: []),
+            dependencies: [],
+            path: "Sources"),
     ]
 )
