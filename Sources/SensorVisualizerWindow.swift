@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class SensorVisualizerWindow: UIWindow {
+open class SensorVisualizerWindow: UIWindow {
 
     public weak var sensorVisualizerWindowDelegate: SensorVisualizerWindowDelegate?
 
