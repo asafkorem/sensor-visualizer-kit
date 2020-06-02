@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E97C9F224868EB1008EC96E /* SensorVisualizerWindow+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E97C9F124868EB1008EC96E /* SensorVisualizerWindow+Delegate.swift */; };
 		E646A57E225CC18D0086B500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E646A57D225CC18D0086B500 /* AppDelegate.swift */; };
 		E646A583225CC18D0086B500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E646A581225CC18D0086B500 /* Main.storyboard */; };
 		E646A585225CC18E0086B500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E646A584225CC18E0086B500 /* Assets.xcassets */; };
@@ -56,6 +57,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E97C9F124868EB1008EC96E /* SensorVisualizerWindow+Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SensorVisualizerWindow+Delegate.swift"; sourceTree = "<group>"; };
 		52D6D97C1BEFF229002C0205 /* SensorVisualizerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SensorVisualizerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD2FAA261CD0B6D800659CF4 /* SensorVisualizerKit.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SensorVisualizerKit.plist; sourceTree = "<group>"; };
 		E646A57B225CC18D0086B500 /* SensorVisualizerKit-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SensorVisualizerKit-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,6 +138,7 @@
 				E646A58D225CC2470086B500 /* SensorVisualizerWindow.swift */,
 				E646A58F225CC7690086B500 /* SensorVisualizerWindow+Touch.swift */,
 				E646A5C4225D87BD0086B500 /* SensorVisualizerWindow+Shake.swift */,
+				2E97C9F124868EB1008EC96E /* SensorVisualizerWindow+Delegate.swift */,
 				E646A593225CE34E0086B500 /* UIView+Extensions.swift */,
 				E646A595225D188A0086B500 /* CAAnimationGroup+Extensions.swift */,
 				E646A5C7225E42A70086B500 /* UIPushBehavior+Extensions.swift */,
@@ -346,6 +349,7 @@
 			files = (
 				E646A596225D188A0086B500 /* CAAnimationGroup+Extensions.swift in Sources */,
 				E646A5C8225E42A70086B500 /* UIPushBehavior+Extensions.swift in Sources */,
+				2E97C9F224868EB1008EC96E /* SensorVisualizerWindow+Delegate.swift in Sources */,
 				E646A5C5225D87BD0086B500 /* SensorVisualizerWindow+Shake.swift in Sources */,
 				E646A594225CE34E0086B500 /* UIView+Extensions.swift in Sources */,
 				E646A58E225CC2470086B500 /* SensorVisualizerWindow.swift in Sources */,

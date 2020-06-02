@@ -8,7 +8,9 @@
 
 import UIKit
 
-public class SensorVisualizerWindow: UIWindow {
+open class SensorVisualizerWindow: UIWindow {
+
+    public weak var sensorVisualizerWindowDelegate: SensorVisualizerWindowDelegate?
 
     let primaryColor: UIColor
     let secondaryColor: UIColor
@@ -58,7 +60,7 @@ public class SensorVisualizerWindow: UIWindow {
         }
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

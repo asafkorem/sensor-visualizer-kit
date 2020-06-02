@@ -20,6 +20,8 @@ extension SensorVisualizerWindow: TouchVisualizable {
     
     public override func sendEvent(_ event: UIEvent) {
         super.sendEvent(event)
+        guard shouldShowFingertips(for: .touch) else { return }
+
         event.allTouches?
             .forEach { touch in
 

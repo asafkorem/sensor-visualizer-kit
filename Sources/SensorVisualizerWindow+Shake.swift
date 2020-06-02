@@ -15,7 +15,7 @@ fileprivate protocol ShakeVisualizable {
 extension SensorVisualizerWindow: ShakeVisualizable {
     
     public override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
-        if event?.subtype == .motionShake {
+        if event?.subtype == .motionShake, shouldShowFingertips(for: .shake) {
             shake(intensity: 1800)
             shake(intensity: -1800)
         }

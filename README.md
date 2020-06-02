@@ -74,6 +74,18 @@ The method signature for initializing the SesnorVisuzliserWindow takes 1 require
 - **primary _(optional)_:** The tap and shake color which defaults to the tint color
 - **secondary _(optional)_:** The tap border color which defaults to the tint color
 
+### SensorVisualizerWindowDelegate
+
+The delegate allows to disable some or all visualizations.
+
+```swift
+extension AppDelegate: SensorVisualizerWindowDelegate {
+    func sensorVisualizerWindow(_ window: SensorVisualizerWindow, shouldShowFingertipsFor sensor: Sensor) -> Bool {
+        return UIScreen.main.isCaptured
+    }
+}
+```
+
 ## Sensors
 
 **Sensor Visualizer Kit**
