@@ -10,6 +10,8 @@ import UIKit
 
 public class SensorVisualizerWindow: UIWindow {
 
+    public weak var sensorVisualizerWindowDelegate: SensorVisualizerWindowDelegate?
+
     let primaryColor: UIColor
     let secondaryColor: UIColor
     var animator: UIDynamicAnimator?
